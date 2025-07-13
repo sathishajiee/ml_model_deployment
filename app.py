@@ -6,9 +6,9 @@ from streamlit_option_menu import option_menu
 
 # Training the Modles
 
-diabetes_model = pickle.load(open( r"C:/Users/Yashvanth/OneDrive/Desktop/multi_model_predection/Diabetes_model.sv","rb"))
-heart_model = pickle.load(open(r"C:/Users/Yashvanth/OneDrive/Desktop/multi_model_predection/Heartdisease_model_v2.sav","rb"))
-parkinson_model = pickle.load(open(r"C:/Users/Yashvanth/OneDrive/Desktop/multi_model_predection/parkinsons_model.sav","rb"))
+diabetes_model = pickle.load(open( "Diabetes_model.sv","rb"))
+heart_model = pickle.load(open("Heartdisease_model_v2.sav","rb"))
+parkinson_model = pickle.load(open("parkinsons_model.sav","rb"))
 
 #  Sidebar navigation 
 with st.sidebar:
