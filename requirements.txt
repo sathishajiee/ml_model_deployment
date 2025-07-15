@@ -2,3 +2,4 @@ streamlit>=1.28
 numpy
 scikit-learn
 protobuf
+streamlit-option-menu==0.3.6   # or the latest version you use locally
